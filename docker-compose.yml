@@ -1,7 +1,8 @@
 version: "3.8"
 services:
 
-    # PHP Service
+    # PHP & NGINX App Service
+
     php:
         container_name: php
         build:
@@ -16,11 +17,13 @@ services:
         volumes:
             - ./:/var/www
         ports:
-            - 8000:8000
+            - 8088:8000
         depends_on:
-            - database
+            - mysql
+            - postgres
 
-    # Database Server
+    # Database Servers
+
     mysql:
         container_name: mysql
         image: mysql:8.0
