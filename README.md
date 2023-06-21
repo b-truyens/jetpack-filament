@@ -170,6 +170,17 @@ docker exec -it Laravel_php bash
 use npm run watch when you start working on your css to continually update without having to run build each time you change css / js.)
 
 
+You can add fake user by executing:
+
+   ```sh
+php artisan tinker
+   ```
+
+   ```sh
+User::factory()->count(20)->create();
+   ```
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
