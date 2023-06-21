@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b8d1d9d8bccbdd90c36efbb6e320df8064f9fd1f',
+        'reference' => 'ea2f138852f08219cd53c1ac8e51f43345898382',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -574,7 +574,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b8d1d9d8bccbdd90c36efbb6e320df8064f9fd1f',
+            'reference' => 'ea2f138852f08219cd53c1ac8e51f43345898382',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -692,6 +692,15 @@
             'install_path' => __DIR__ . '/../league/uri-parser',
             'aliases' => array(),
             'reference' => '671548427e4c932352d9b9279fdfa345bf63fa00',
+            'dev_requirement' => false,
+        ),
+        'leandrocfe/filament-apex-charts' => array(
+            'pretty_version' => '1.0.3',
+            'version' => '1.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../leandrocfe/filament-apex-charts',
+            'aliases' => array(),
+            'reference' => 'af32c6f3014d9fd784d4d7329e9b1cce56b37196',
             'dev_requirement' => false,
         ),
         'livewire/livewire' => array(
