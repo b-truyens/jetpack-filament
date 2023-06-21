@@ -27,7 +27,7 @@ services:
     # Database Servers
 
     mysql:
-        container_name: ${APP_NAME}_mysql
+        container_name: mysql
         image: mysql:8.0
         ports:
             - 8706:3306
