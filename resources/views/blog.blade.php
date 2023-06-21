@@ -30,7 +30,6 @@
 
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
 
-            <x-logo />
 
             <div class="mt-16">
 
@@ -53,5 +52,7 @@
     @livewireScripts
 
 </body>
+
+
 
 </html>
