@@ -1,50 +1,50 @@
 0 verbose cli /usr/bin/node /usr/bin/npm
 1 info using npm@9.2.0
 2 info using node@v18.13.0
-3 timing npm:load:whichnode Completed in 2ms
-4 timing config:load:defaults Completed in 12ms
-5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 12ms
-6 timing config:load:builtin Completed in 13ms
-7 timing config:load:cli Completed in 7ms
-8 timing config:load:env Completed in 3ms
-9 timing config:load:project Completed in 5ms
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 8ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 8ms
+6 timing config:load:builtin Completed in 10ms
+7 timing config:load:cli Completed in 6ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:project Completed in 4ms
 10 timing config:load:file:/var/www/.npmrc Completed in 1ms
 11 timing config:load:user Completed in 2ms
 12 timing config:load:file:/etc/npmrc Completed in 1ms
 13 timing config:load:global Completed in 1ms
 14 timing config:load:setEnvs Completed in 6ms
-15 timing config:load Completed in 56ms
-16 timing npm:load:configload Completed in 56ms
-17 timing npm:load:mkdirpcache Completed in 2ms
+15 timing config:load Completed in 44ms
+16 timing npm:load:configload Completed in 44ms
+17 timing npm:load:mkdirpcache Completed in 5ms
 18 timing npm:load:mkdirplogs Completed in 1ms
 19 verbose title npm install
 20 verbose argv "install"
-21 timing npm:load:setTitle Completed in 7ms
-22 timing config:load:flatten Completed in 20ms
-23 timing npm:load:display Completed in 27ms
-24 verbose logfile logs-max:10 dir:/var/www/.npm/_logs/2023-06-21T08_30_01_858Z-
-25 verbose logfile /var/www/.npm/_logs/2023-06-21T08_30_01_858Z-debug-0.log
-26 timing npm:load:logFile Completed in 31ms
+21 timing npm:load:setTitle Completed in 9ms
+22 timing config:load:flatten Completed in 37ms
+23 timing npm:load:display Completed in 43ms
+24 verbose logfile logs-max:10 dir:/var/www/.npm/_logs/2023-06-21T12_27_34_746Z-
+25 verbose logfile /var/www/.npm/_logs/2023-06-21T12_27_34_746Z-debug-0.log
+26 timing npm:load:logFile Completed in 24ms
 27 timing npm:load:timers Completed in 1ms
-28 timing npm:load:configScope Completed in 1ms
+28 timing npm:load:configScope Completed in 0ms
 29 timing npm:load Completed in 133ms
 30 silly logfile start cleaning logs, removing 1 files
 31 timing config:load:flatten Completed in 3ms
-32 timing arborist:ctor Completed in 4ms
+32 timing arborist:ctor Completed in 5ms
 33 silly logfile done cleaning log files
-34 timing idealTree:init Completed in 698ms
+34 timing idealTree:init Completed in 569ms
 35 timing idealTree:userRequests Completed in 1ms
 36 silly idealTree buildDeps
 37 timing idealTree:#root Completed in 1ms
-38 timing idealTree:buildDeps Completed in 6ms
-39 timing idealTree:fixDepFlags Completed in 1ms
-40 timing idealTree Completed in 726ms
+38 timing idealTree:buildDeps Completed in 5ms
+39 timing idealTree:fixDepFlags Completed in 2ms
+40 timing idealTree Completed in 598ms
 41 timing arborist:ctor Completed in 1ms
-42 timing reify:loadTrees Completed in 938ms
+42 timing reify:loadTrees Completed in 813ms
 43 timing reify:diffTrees Completed in 32ms
 44 silly reify moves {}
 45 timing reify:retireShallow Completed in 4ms
-46 timing reify:createSparse Completed in 16ms
+46 timing reify:createSparse Completed in 23ms
 47 timing reify:loadBundles Completed in 0ms
 48 silly audit bulk request {
 48 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
@@ -232,42 +232,42 @@
 90 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-arm64' ]
 91 verbose reify failed optional dependency /var/www/node_modules/@esbuild/android-arm
 92 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-arm' ]
-93 timing reifyNode:node_modules/fsevents Completed in 182ms
-94 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 181ms
-95 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 181ms
-96 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 180ms
-97 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 181ms
-98 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 180ms
-99 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 180ms
-100 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 180ms
-101 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 179ms
-102 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 179ms
-103 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 178ms
-104 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 178ms
-105 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 179ms
-106 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 179ms
-107 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 178ms
-108 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 177ms
-109 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 177ms
-110 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 177ms
-111 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 178ms
-112 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 179ms
-113 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 179ms
-114 timing reifyNode:node_modules/@esbuild/android-arm Completed in 179ms
-115 timing reify:unpack Completed in 188ms
-116 timing reify:unretire Completed in 0ms
-117 timing build:queue Completed in 17ms
-118 timing build:deps Completed in 19ms
-119 timing build Completed in 19ms
-120 timing reify:build Completed in 22ms
-121 timing reify:trash Completed in 17ms
-122 timing reify:save Completed in 139ms
-123 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 674ms
-124 timing auditReport:getReport Completed in 700ms
+93 timing reifyNode:node_modules/fsevents Completed in 185ms
+94 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 184ms
+95 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 184ms
+96 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 184ms
+97 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 183ms
+98 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 184ms
+99 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 183ms
+100 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 182ms
+101 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 183ms
+102 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 181ms
+103 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 181ms
+104 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 182ms
+105 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 181ms
+106 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 181ms
+107 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 182ms
+108 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 181ms
+109 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 181ms
+110 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 181ms
+111 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 182ms
+112 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 182ms
+113 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 183ms
+114 timing reifyNode:node_modules/@esbuild/android-arm Completed in 183ms
+115 timing reify:unpack Completed in 194ms
+116 timing reify:unretire Completed in 1ms
+117 timing build:queue Completed in 27ms
+118 timing build:deps Completed in 28ms
+119 timing build Completed in 30ms
+120 timing reify:build Completed in 32ms
+121 timing reify:trash Completed in 16ms
+122 timing reify:save Completed in 150ms
+123 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 726ms
+124 timing auditReport:getReport Completed in 754ms
 125 silly audit report {}
 126 timing auditReport:init Completed in 0ms
-127 timing reify:audit Completed in 704ms
-128 timing reify Completed in 1713ms
+127 timing reify:audit Completed in 757ms
+128 timing reify Completed in 1648ms
 129 silly ADD
 130 silly ADD
 131 silly ADD
@@ -290,7 +290,7 @@
 148 silly ADD
 149 silly ADD
 150 silly ADD
-151 timing command:install Completed in 1759ms
+151 timing command:install Completed in 1704ms
 152 verbose exit 0
-153 timing npm Completed in 1987ms
+153 timing npm Completed in 1919ms
 154 info ok
