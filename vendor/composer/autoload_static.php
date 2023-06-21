@@ -816,6 +816,7 @@ class ComposerStaticInitafdc0d508fc9654b1429092aa966764a
         'App\\Providers\\SocialstreamServiceProvider' => __DIR__ . '/../..' . '/app/Providers/SocialstreamServiceProvider.php',
         'App\\View\\Components\\AppLayout' => __DIR__ . '/../..' . '/app/View/Components/AppLayout.php',
         'App\\View\\Components\\GuestLayout' => __DIR__ . '/../..' . '/app/View/Components/GuestLayout.php',
+        'App\\View\\Components\\Logo' => __DIR__ . '/../..' . '/app/View/Components/Logo.php',
         'App\\View\\Components\\NavBar' => __DIR__ . '/../..' . '/app/View/Components/NavBar.php',
         'App\\View\\Components\\NavButtons' => __DIR__ . '/../..' . '/app/View/Components/NavButtons.php',
         'App\\View\\Components\\NavLogo' => __DIR__ . '/../..' . '/app/View/Components/NavLogo.php',

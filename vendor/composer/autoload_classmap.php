@@ -82,6 +82,7 @@ return array(
     'App\\Providers\\SocialstreamServiceProvider' => $baseDir . '/app/Providers/SocialstreamServiceProvider.php',
     'App\\View\\Components\\AppLayout' => $baseDir . '/app/View/Components/AppLayout.php',
     'App\\View\\Components\\GuestLayout' => $baseDir . '/app/View/Components/GuestLayout.php',
+    'App\\View\\Components\\Logo' => $baseDir . '/app/View/Components/Logo.php',
     'App\\View\\Components\\NavBar' => $baseDir . '/app/View/Components/NavBar.php',
     'App\\View\\Components\\NavButtons' => $baseDir . '/app/View/Components/NavButtons.php',
     'App\\View\\Components\\NavLogo' => $baseDir . '/app/View/Components/NavLogo.php',
