@@ -146,7 +146,7 @@ https://docs.docker.com/get-docker/
    ```
 7. Migrate database.
    ```sh
-php artisan migrate:fresh
+   php artisan migrate:fresh
    ```
 8. npm run build
    ```sh
