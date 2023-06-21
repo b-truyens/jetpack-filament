@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ea2f138852f08219cd53c1ac8e51f43345898382',
+        'reference' => '0579b017a3250ee0a6aa20df4ceb50e58f94c3d5',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -574,7 +574,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ea2f138852f08219cd53c1ac8e51f43345898382',
+            'reference' => '0579b017a3250ee0a6aa20df4ceb50e58f94c3d5',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -749,12 +749,12 @@
             'dev_requirement' => false,
         ),
         'monolog/monolog' => array(
-            'pretty_version' => '3.3.1',
-            'version' => '3.3.1.0',
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../monolog/monolog',
             'aliases' => array(),
-            'reference' => '9b5daeaffce5b926cac47923798bba91059e60e2',
+            'reference' => 'e2392369686d420ca32df3803de28b5d6f76867d',
             'dev_requirement' => false,
         ),
         'mtdowling/cron-expression' => array(
@@ -1021,8 +1021,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '3.0.0',
-                1 => '1.0|2.0|3.0',
+                0 => '1.0|2.0|3.0',
+                1 => '3.0.0',
             ),
         ),
         'psr/simple-cache' => array(
