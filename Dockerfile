@@ -8,7 +8,7 @@ ENV PHP_OPCACHE_REVALIDATE_FREQ=1
 RUN usermod -u 1000 www-data
 
 RUN apt-get update -y
-RUN apt-get install -y unzip libpq-dev libcurl4-gnutls-dev nginx nodejs npm
+RUN apt-get install -y unzip libpq-dev libcurl4-gnutls-dev nginx nodejs npm nano net-tools nmap traceroute iputils-ping mc curl
 RUN docker-php-ext-install pdo pdo_mysql bcmath curl opcache
 # RUN docker-php-ext-enable opcache
 
@@ -26,6 +26,6 @@ COPY --from=composer:2.3.5 /usr/bin/composer /usr/bin/composer
 RUN chmod -R 755 /var/www/storage
 RUN chmod -R 755 /var/www/bootstrap
 
-RUN ["chmod", "+x", "docker/entrypoint.sh"]
+RUN ["chmod", "+X", "var/www/docker/entrypoint.sh"]
 
-# ENTRYPOINT [ "docker/entrypoint.sh" ]
+ENTRYPOINT [ "/var/www/docker/entrypoint.sh" ]

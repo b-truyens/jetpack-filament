@@ -122,7 +122,7 @@ https://docs.docker.com/get-docker/
    ```
 3. Create .env & update database details.
    ```sh
-   cd gallery-auction && cp .env-example .env && nano .env
+   cd jetpack-filament && cp .env-example .env && nano .env
    ```
 
    Choose a database username & password and save the file.
@@ -136,17 +136,31 @@ https://docs.docker.com/get-docker/
    ```sh
     docker compose up -d --force-recreate
    ```
-6. Install composer & NPM packages
+6. Open bash in container and Install composer & NPM packages
    ```sh
+   docker exec -it -u www-data Laravel_php bash
+
+   composer install
+
+   npm install
    ```
 7. Migrate database.
    ```sh
-   make migrate
+php artisan migrate:fresh
    ```
 8. npm run build
    ```sh
+   npm run build
    ```
 You can now open app on port 8700.
+
+exec www-data shell: 
+
+docker exec -it -u www-data Laravel_php bash
+
+exec root shell:
+
+docker exec -it Laravel_php bash
 
 (for small changes to css and js run npm run dev - remember to refresh your browser
 use npm run watch when you start working on your css to continually update without having to run dev each time you change css / js.)
