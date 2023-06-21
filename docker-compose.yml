@@ -4,7 +4,7 @@ services:
     # PHP & NGINX / Node.js App Service
 
     php:
-        container_name: php
+        container_name: ${APP_NAME}_php
         build:
             context: .
             target: php
@@ -27,7 +27,7 @@ services:
     # Database Servers
 
     mysql:
-        container_name: mysql
+        container_name: ${APP_NAME}_mysql
         image: mysql:8.0
         ports:
             - 8706:3306
@@ -42,7 +42,7 @@ services:
             - laravel
 
     postgres:
-        container_name: postgres
+        container_name: ${APP_NAME}_postgres
         image: postgres:13-alpine
         environment:
             - POSTGRES_USER=${DB_USERNAME}
@@ -55,6 +55,7 @@ services:
 
 
     phpmyadmin:
+        container_name: ${APP_NAME}_phpmyadmin
         image: phpmyadmin
         ports:
             - 8701:80
