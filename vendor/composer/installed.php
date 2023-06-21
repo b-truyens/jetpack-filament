@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '70ee2b2ac886fd73fcaf53644ae356f864fac1c9',
+        'reference' => '808aa3a6919d99a67368af98f5d5652e5abbc98c',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -517,6 +517,15 @@
             'reference' => 'daa11c43729510b3700bc34d414664966b03bffe',
             'dev_requirement' => false,
         ),
+        'joelbutcher/socialstream' => array(
+            'pretty_version' => 'v4.1.3',
+            'version' => '4.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../joelbutcher/socialstream',
+            'aliases' => array(),
+            'reference' => 'e7c92d9051c284b6337ba92237a3d2cc5028098c',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -556,7 +565,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '70ee2b2ac886fd73fcaf53644ae356f864fac1c9',
+            'reference' => '808aa3a6919d99a67368af98f5d5652e5abbc98c',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -593,6 +602,15 @@
             'install_path' => __DIR__ . '/../laravel/serializable-closure',
             'aliases' => array(),
             'reference' => 'f23fe9d4e95255dacee1bf3525e0810d1a1b0f37',
+            'dev_requirement' => false,
+        ),
+        'laravel/socialite' => array(
+            'pretty_version' => 'v5.6.3',
+            'version' => '5.6.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/socialite',
+            'aliases' => array(),
+            'reference' => '00ea7f8630673ea49304fc8a9fca5a64eb838c7e',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
@@ -647,6 +665,15 @@
             'install_path' => __DIR__ . '/../league/mime-type-detection',
             'aliases' => array(),
             'reference' => 'ff6248ea87a9f116e78edd6002e39e5128a0d4dd',
+            'dev_requirement' => false,
+        ),
+        'league/oauth1-client' => array(
+            'pretty_version' => 'v1.10.1',
+            'version' => '1.10.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/oauth1-client',
+            'aliases' => array(),
+            'reference' => 'd6365b901b5c287dd41f143033315e2f777e1167',
             'dev_requirement' => false,
         ),
         'league/uri-parser' => array(
