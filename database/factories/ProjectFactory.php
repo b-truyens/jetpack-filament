@@ -30,11 +30,10 @@ class ProjectFactory extends Factory
     {
         return [
             'name' => $this->faker->name,
-            'slug' => Str::slug($this->faker->name),
             'description' => $this->faker->text,
             'start_date'=> now(),
             'deadline'=> now(),
-            'user_id' => Str::random(10),
+            'user_id' => "1",
         ];
     }
 }

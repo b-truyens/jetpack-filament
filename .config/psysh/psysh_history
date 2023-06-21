@@ -1,3 +1,12 @@
 User::factory()->count(20)->create();
-
 quit
+Project::factory()->count(20)->create()
+Project::factory()->count(20)->create()
+quit
+Project::factory()->count(20)->create()
+Project::factory()->count(20)->create()
+exit
+Project::factory()->count(20)->create()
+Project::factory()->count(20)->create()
+quit
+Project::factory()->count(20)->create()
