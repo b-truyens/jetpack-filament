@@ -40,7 +40,17 @@
                     <x-post2 />
                     <x-post-div />
 
+
+
                 </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+                    @foreach ($posts as $post)
+                    <x-post :post="$post" />
+                    @endforeach
+                </div>
+
+
             </div>
 
             <x-footer />
