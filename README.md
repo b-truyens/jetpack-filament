@@ -155,14 +155,14 @@ php artisan migrate:fresh
 You can now open app on port 8700.
 
 exec www-data shell: 
-   ```sh
 
+   ```sh
 docker exec -it -u www-data Laravel_php bash
    ```
 
 exec root shell:
-   ```sh
 
+   ```sh
 docker exec -it Laravel_php bash
    ```
 
